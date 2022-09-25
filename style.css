@@ -1,10 +1,10 @@
 @font-face {
   font-family: "Manser";
-  src: url(/MN.ttf);
+  src: url("./src/fonts/MN.ttf");
 }
 @font-face {
   font-family: "ManserT";
-  src: url(/MN-Thick.ttf);
+  src: url("./src/fonts/MN-Thick.ttf");
 }
 body {
   background: #ffffff;
@@ -61,7 +61,7 @@ main {
 }
 
 .bg-home {
-  background: url(/src/MainBG.png);
+  background: url(./src/image/MainBG.png);
   background-size: cover;
   background-position: center;
   height: 100%;
@@ -72,7 +72,7 @@ main {
 
 section#one {
   margin-top: 4em;
-  background: url(/src/SectiononeBG.png);
+  background: url(./src/image/SectiononeBG.png);
   background-size: cover;
   background-position: top left;
   /* border: solid 1px; */
