@@ -12,6 +12,26 @@ section#two .end-lines {
   margin: 7em 0 0 0;
 }
 
+.bg-home {
+  background: url(./src/image/MainBG.png);
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bg-breeds {
+  background: url(./src/image/BreedsBG.png);
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .mgt-1 {
   margin-top: 1em;
 }
