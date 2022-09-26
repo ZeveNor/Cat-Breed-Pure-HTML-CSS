@@ -158,7 +158,7 @@ section#two .topic {
 }
 
 .footer {
-  background: url(/src/TeenMeowNubRalw.png);
+  background: url(./src/image/TeenMeowNubRalw.png);
   background-size: cover;
   background-position: bottom right;
   padding: 40px 0;
