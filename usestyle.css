@@ -12,6 +12,16 @@ section#two .end-lines {
   margin: 7em 0 0 0;
 }
 
+section#one-breed .end-lines {
+  border: 1px solid rgb(167, 167, 167);
+  margin: 3em 25% 0 25%;
+}
+
+footer {
+  border: 1px solid rgb(247, 244, 244);
+  margin: 3em 0 0 0;
+}
+
 .bg-home {
   background: url(./src/image/MainBG.png);
   background-size: cover;

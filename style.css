@@ -45,6 +45,22 @@ ul.menu li a {
   padding: 1em;
 }
 
+ul.menu a:hover {
+  background-color: #352d3a;
+  border-radius: 0 0 30% 30%;
+  color: rgb(255, 255, 255);
+}
+
+ul.menu .breed {
+  color: #f6bf75;
+}
+
+ul.menu .breed:hover {
+  background-color: #ffffff;
+  border-radius: 0 0 30% 30%;
+  color: #fa7900;
+}
+
 /* Right Navigation css */
 /* ul.menu li a.fl-right {
   text-decoration: none;
@@ -170,12 +186,40 @@ section#one-breed .subtopic {
   font-size: 1.4em;
 }
 
+section#one-breed .subtopicen {
+  font-size: 1.3em;
+}
+
 section#one-breed .box .br-content img {
   height: 230px;
 }
 
 section#one-breed .box .br-content p {
   font-size: 1em;
+}
+
+section#one-breed .page {
+  color: #4b4c4d;
+  text-align: center;
+  padding-top: 30px;
+}
+
+section#one-breed .page a {
+  font-size: 18px;
+  width: 25px;
+  height: 25px;
+  display: inline-block;
+  text-align: center;
+  margin: 0 5px;
+  color: inherit;
+  opacity: 0.75;
+}
+
+section#one-breed .page a:hover {
+  border-radius: 50%;
+  color: #ffffff;
+  background-color: #4b4c4d;
+  opacity: 1;
 }
 
 .footer {
