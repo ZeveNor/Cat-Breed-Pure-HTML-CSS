@@ -42,6 +42,16 @@ footer {
   justify-content: center;
 }
 
+.bg-gallery {
+  background: url(./src/image/GalleryBG.png);
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .mgt-1 {
   margin-top: 1em;
 }

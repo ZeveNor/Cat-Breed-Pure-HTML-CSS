@@ -61,6 +61,16 @@ ul.menu .breed:hover {
   color: #fa7900;
 }
 
+ul.menu .gallery {
+  color: #ffffff;
+}
+
+ul.menu .gallery:hover {
+  background-color: #ffffff;
+  border-radius: 0 0 30% 30%;
+  color: #fa7900;
+}
+
 /* Right Navigation css */
 /* ul.menu li a.fl-right {
   text-decoration: none;
