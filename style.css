@@ -66,9 +66,9 @@ ul.menu .gallery {
 }
 
 ul.menu .gallery:hover {
-  background-color: #ffffff;
+  background-color: #bbff00;
   border-radius: 0 0 30% 30%;
-  color: #fa7900;
+  color: #131722;
 }
 
 /* Right Navigation css */
@@ -230,6 +230,19 @@ section#one-breed .page a:hover {
   color: #ffffff;
   background-color: #4b4c4d;
   opacity: 1;
+}
+
+section#one-gallery {
+  background-color: #161d22;
+  padding-bottom: 5%;
+}
+
+section#one-gallery .topic {
+  padding-top: 5%;
+  font-size: 2em;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  list-style-type: none;
 }
 
 .footer {
