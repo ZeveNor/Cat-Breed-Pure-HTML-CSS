@@ -2,6 +2,10 @@ section#one .end-line {
   border: 2px solid rgb(167, 167, 167);
   margin: 3em 30% 0 30%;
 }
+section#one .end-lines {
+  border-bottom: 1.5px solid rgb(121, 104, 104);
+  margin: 3em 20% 3em 20%;
+}
 section#two .end-line {
   border: 2px solid rgb(167, 167, 167);
   margin: 5em 30% 5em 30%;
@@ -23,7 +27,7 @@ footer {
 }
 
 .bg-home {
-  background: url(./src/image/MainBG.png);
+  background: url(./src/image/home.jpg);
   background-size: cover;
   background-position: center;
   height: 100%;
