@@ -4,72 +4,77 @@
 <head>
   <meta charset='UTF-8' />
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="responsive.css">
+  <link rel="stylesheet" href="breed.css">
   <link rel="stylesheet" href="usestyle.css">
-  <!-- <script src="/component/gallery/gallery.js"></script> -->
-  <!-- <link rel="stylesheet" href="./component/gallery/gallery.css"> -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel='shortcut icon' href='./src/image/TeenMeowKao.png' type='image/png' />
   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-  <title>Gallery</title>
+  <title>DOG BREEDS | ABOUT US</title>
 </head>
 
 <body>
   <section id="home">
     <nav>
-      <ul class="menu" style="background: #131722;">
+      <ul class="menu">
         <li><img src='./src/image/TeenMeowKao.png' alt='Teen' /></li>
-        <li><a class="gallery" href="index.html">HOME</a></li>
-        <li><a class="gallery" href="breed.html">BREEDS</a></li>
-        <li><a class="gallery" href="about.html">ABOUT US</a></li>
-        <li><a class="gallery" href="https://zevenor.github.io/Cat-Breed-Pure-HTML-CSS/">VIEW ON SERVER</a></li>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="breed.html">BREEDS</a></li>
+        <li><a href="about.html">ABOUT US</a></li>
+        <li><a href="https://zevenor.github.io/Cat-Breed-Pure-HTML-CSS/">VIEW ON SERVER</a></li>
+        <li><a class="fl-right" style="padding-bottom: 0.5em; border-radius: 10%;" href="loginPage.html">LOGIN</a>
+        </li>
       </ul>
     </nav>
     <main>
-      <div class="bg-gallery"></div>
+      <div class="bg-breeds"></div>
     </main>
   </section>
   <section id="one-gallery">
     <ul class="topic">
-      <li>
-        <p>ABOUT US</p>
-      </li>
-      <li>
-        <p style="color: rgb(168, 183, 231); font-size: 0.8em;">"Responsive ขออนุญาตรวบยอดส่งพร้อมงานกลุ่มนะครับ"</p>
-        <p style="color: rgb(168, 183, 231); font-size: 0.8em;">รวมกับอีกหลายๆ ฟีเจอร์ส่งรอบหน้าครับ</p>
-      </li>
-      <li>
-        <p>----</p>
-      </li>
-      <li>
-        <img src="src/image/D00G9880.jpg" style="width: 300px;">
-      </li>
-      <li>
-        <p>Panthep Keawmanee</p>
-      </li>
-      <li>
-        <h6>65502100123-6</้>
-      </li>
-      <li>
-        <h6>วิทยาการคอมพิวเตอร์</h6>
-      </li>
-      <li>
-        <h6>ทำงานเป็น Junior Developer ที่ TWEED TECH</h6>
-      </li>
-      <li>
-        <p style="margin-top: 5%;">: DONATE ME :</p>
-        <img src='src/image/BBl-Screenshot-1663834648753.png' style="width: 300px; margin-top: 1%;" />
-        <p style="margin-top: 1%; font-size: 0.7em; color: aqua;"> ทุกบาททุกสตางค์เป็นค่าชานมเย็น ขอบคุณครับ </p>
-      </li>
-    </ul>
-    <p style="text-align:center; color: white; font-size: 1.6em;margin-top: 5%; margin-bottom: 2%;">
-      จำนวนผู้เข้าชมเว็บไซต์</p>
-    <div style="text-align:center;">
-      <img style="width:330px;" src="https://ZEVEN-COUNTER.zevenelx.repl.co/get/@zeven" alt="TEST" />
-    </div>
+      <li>สมาชิกกลุ่มประกอบด้วบ</li>
+      <br>
+      <div class="box" style="display: flex;">
+        <div style="text-align:center;">
+          <img style="width:330px;" src="./src/image/กาย.png" class="a1">
+          <p>1. Natathapon Kanghae</p>
+          <p>นายณฏฐพล กังแฮ</p>
+        </div>
+        <div style="text-align:center;">
+          <div>
+            <img style="width:330px;" src="./src/image/ซีฟ.png" class="a1">
+          </div>
+          <p>2. Panthep Keawmanee </p>
+          <p>นายปานเทพ แก้วมณี</p>
+        </div>
+      </div>
+      <div class="box">
+
+        <br>
+        <div style="text-align:center;">
+          <img style="width:330px;" src="./src/image/ปิง.png" class="a1">
+          <p>3. Sophonwit Sujintawong</p>
+          <p>นายโสภณวิชญ์ สุจินตวงษ์</p>
+        </div>
+        <br>
+        <div style="text-align: center;">
+          <img style="width:330px;" src="./src/image/บาส.png" class="a1">
+          <p>4. Krittisak Supaporn</p>
+          <p>นายกิตติศักดิ์ สุภาพร</p>
+        </div>
+      </div>
+      <br><br>
+      <div class="map-responsive">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d41935.39376585036!2d103.85363394974193!3d1.3524617334678202!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da11238a8b9375%3A0x887869cf52abf5c4!2sSingapore!5e0!3m2!1sen!2sth!4v1666596944084!5m2!1sen!2sth"
+          width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
   </section>
 
 
 </body>
 <footer class="footer">
-  <div class="end-lines"></div>
   <div class="social">
     <a href="https://www.facebook.com/PT.Panthep"><i class='bx bxl-facebook-circle bx-md'></i></a>
     <a href="https://github.com/ZeveNor"><i class='bx bxl-github bx-md'></i></a>
@@ -79,9 +84,10 @@
     <li class="list-inline-item"><a href="index.html">Home</a></li>
     <li class="list-inline-item"><a href="breed.html">Breeds</a></li>
     <li class="list-inline-item"><a href="about.html">About Us</a></li>
+    <li class="list-inline-item"><a href="loginPage.html">Login</a></li>
   </ul>
-  <p class="caption">Hi I'm ZEV. I'm Junior Developer in TWEED TECH</p>
-  <p class="copyright">ZEVEN © 2022</p>
+  <p class="caption">Hi I'm Ping-ping. I'm Junior Developer in TWEED TECH</p>
+  <p class="copyright">PIng-Ping © 2022</p>
 </footer>
 
 </html>

@@ -3,8 +3,8 @@ section#one .end-line {
   margin: 3em 30% 0 30%;
 }
 section#one .end-lines {
-  border-bottom: 1.5px solid rgb(121, 104, 104);
-  margin: 3em 20% 3em 20%;
+  border-bottom: 2px solid rgb(36, 192, 31);
+  margin: 3em 25% 3em 25%;
 }
 section#two .end-line {
   border: 2px solid rgb(167, 167, 167);
@@ -37,7 +37,7 @@ footer {
 }
 
 .bg-breeds {
-  background: url(./src/image/BreedsBG.png);
+  background: url(./src/image/home.jpg);
   background-size: cover;
   background-position: center;
   height: 100%;
@@ -47,7 +47,7 @@ footer {
 }
 
 .bg-gallery {
-  background: url(./src/image/GalleryBG.png);
+  background: url(./src/image/หมา.jpeg);
   background-size: cover;
   background-position: center;
   height: 100%;

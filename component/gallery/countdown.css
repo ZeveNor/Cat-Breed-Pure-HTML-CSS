@@ -1,0 +1,46 @@
+.countdown {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: rgba(248, 4, 37, 0.815);
+  padding-top: 8px;
+  padding-bottom: 14px;
+}
+
+.big-text {
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 0.5;
+  margin: 1rem 2rem;
+}
+
+.countdown-el {
+  text-align: center;
+}
+
+.countdown-el span {
+  font-size: 1.3rem;
+  color: rgb(255, 255, 255);
+}
+
+.login-top {
+  width: 100vw;
+  height: 50px;
+  background-color: rgba(0, 0, 0, 0);
+  padding: 0px 20px;
+  display: flex;
+  align-items: center;
+}
+
+.login-top img {
+  width: 150px;
+}
+
+.login-box {
+  background-color: #0f1025ef;
+  width: 430px;
+  height: 630px;
+  border-radius: 5px;
+  padding: 50px;
+}

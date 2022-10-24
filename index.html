@@ -5,9 +5,13 @@
   <meta charset='UTF-8' />
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="usestyle.css">
-  <link rel='shortcut icon' href='/src/image/cat-head.png' type='image/png' />
+  <link rel="stylesheet" href="responsive.css">
+  <link rel='stylesheet' href='./component/gallery/countdown.css' />
+  <script src="./component/gallery/countdown.js" defer></script>
+  <link rel='shortcut icon' href='./src/image/TeenMeowKao.png' type='image/png' />
   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-  <title>หน้าแรก</title>
+  <title>DOG BREEDS | HOME</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
@@ -19,309 +23,337 @@
         <li><a href="breed.html">BREEDS</a></li>
         <li><a href="about.html">ABOUT US</a></li>
         <li><a href="https://zevenor.github.io/Cat-Breed-Pure-HTML-CSS/">VIEW ON SERVER</a></li>
+        <li><a class="fl-right" style="padding-bottom: 0.5em; border-radius: 10%;" href="loginPage.html">LOGIN</a>
+        </li>
       </ul>
     </nav>
     <main>
       <div class="bg-home"></div>
     </main>
   </section>
+
+  <div
+    style="padding-top: 20px; font-size: 2rem; color: rgb(253, 253, 253); text-align: center; background-color: rgba(248, 4, 37, 0.815);">
+    <p>ช่วงลดราคาพิเศษ</p>
+  </div>
+  <div class="countdown">
+    <div class="countdown-el">
+      <p class="big-text" id="days">0</p>
+      <span>days</span>
+    </div>
+    <div class="countdown-el">
+      <p class="big-text" id="hours">0</p>
+      <span>hours</span>
+    </div>
+    <div class="countdown-el">
+      <p class="big-text" id="mins">0</p>
+      <span>mins</span>
+    </div>
+    <div class="countdown-el">
+      <p class="big-text" id="seconds">0</p>
+      <span>seconds</span>
+    </div>
+  </div>
+
+
   <section id="one">
     <ul class="topic">
       <li>
         <p>สินค้ายอดนิยม</p>
       </li>
     </ul>
+    <div class="end-lines"></div>
     <box>
       <div class="box">
-        <a>
+        <a href="#">
           <figure class="hover-img">
             <img src="src/image/Firedog/doggo17.png" />
             <figcaption>
               <i class='bx bxs-cart-add bx-tada bx-md'></i>
               <h3>เพิ่มลงรถเข็น<br /></h3>
             </figcaption>
-            <p style="font-size: 15px;">Kelly & Co's Dinner Booster Freeze-Dried Topper</p>
+            <p style="font-size: 22px;">Kelly & Co's Dinner Booster Freeze-Dried Topper</p>
             <br>
-            <p>ราคา 250 บาท</p>
+            <p style="font-size: 19px;">ราคา 250 บาท</p>
           </figure>
         </a>
-        <a>
+        <a href="#">
           <figure class="hover-img">
             <img src="src/image/Firedog/doggo18.png" />
             <figcaption>
               <i class='bx bxs-cart-add bx-tada bx-md'></i>
               <h3>เพิ่มลงรถเข็น<br /></h3>
             </figcaption>
-            <p style="font-size: 15px;">Kelly & Co's Dinner Booster Freeze-Dried Topper</p>
+            <p style="font-size: 22px;">Kelly & Co's Dinner Booster Freeze-Dried Topper</p>
             <br>
-            <p>ราคา 790 บาท</p>
+            <p style="font-size: 19px;">ราคา 790 บาท</p>
           </figure>
         </a>
-        <a>
+        <a href="#">
           <figure class="hover-img">
             <img src="src/image/Firedog/doggo19.png" />
             <figcaption>
               <i class='bx bxs-cart-add bx-tada bx-md'></i>
               <h3>เพิ่มลงรถเข็น<br /></h3>
             </figcaption>
-            <p style="font-size: 15px;">นูเทรียซ์ ซับซีโร่ Nutrience SUBZERO Canadian Pacific Dog</p>
+            <p style="font-size: 22px;">นูเทรียซ์ ซับซีโร่ Nutrience SUBZERO Canadian Pacific Dog</p>
             <br>
-            <p>ราคา 970 บาท</p>
+            <p style="font-size: 19px;">ราคา 970 บาท</p>
           </figure>
         </a>
-        <a>
+        <a href="#">
           <figure class="hover-img">
             <img src="src/image/Firedog/doggo20.png" />
             <figcaption>
               <i class='bx bxs-cart-add bx-tada bx-md'></i>
               <h3>เพิ่มลงรถเข็น<br /></h3>
             </figcaption>
-            <p style="font-size: 15px;">นูเทรียซ์ ซับซีโร่ Nutrience SUBZERO Canadian Pacific Dog</p>
+            <p style="font-size: 22px;">นูเทรียซ์ ซับซีโร่ Nutrience SUBZERO Canadian Pacific Dog</p>
             <br>
-            <p>ราคา 112 บาท</p>
+            <p style="font-size: 19px;">ราคา 112 บาท</p>
           </figure>
         </a>
 
       </div>
       <div class="box">
-        <a>
+        <a href="#">
           <figure class="hover-img">
             <img src="src/image/Firedog/doggo16.png" />
             <figcaption>
               <i class='bx bxs-cart-add bx-tada bx-md'></i>
               <h3>เพิ่มลงรถเข็น<br /></h3>
             </figcaption>
-            <p style="font-size: 15px;">Royal Canin Pomeranian</p>
+            <p style="font-size: 22px;">Royal Canin Pomeranian</p>
             <br>
-            <p>ราคา 350 บาท</p>
+            <p style="font-size: 19px;">ราคา 350 บาท</p>
           </figure>
         </a>
-        <a>
+        <a href="#">
           <figure class="hover-img">
             <img src="src/image/Firedog/doggo15.png" />
             <figcaption>
               <i class='bx bxs-cart-add bx-tada bx-md'></i>
               <h3>เพิ่มลงรถเข็น<br /></h3>
             </figcaption>
-            <p style="font-size: 15px;">ZEAL Spare Ribs</p>
+            <p style="font-size: 22px;">ZEAL Spare Ribs</p>
             <br>
-            <p>ราคา 450 บาท</p>
+            <p style="font-size: 19px;">ราคา 450 บาท</p>
           </figure>
         </a>
-        <a>
+        <a href="#">
           <figure class="hover-img">
             <img src="src/image/Firedog/doggo14.png" />
             <figcaption>
               <i class='bx bxs-cart-add bx-tada bx-md'></i>
               <h3>เพิ่มลงรถเข็น<br /></h3>
             </figcaption>
-            <p style="font-size: 15px;">Solid Gold Leaping Waters</p>
+            <p style="font-size: 22px;">Solid Gold Leaping Waters</p>
             <br>
-            <p>ราคา 390 บาท</p>
+            <p style="font-size: 19px;">ราคา 390 บาท</p>
           </figure>
         </a>
-        <a>
+        <a href="#">
           <figure class="hover-img">
             <img src="src/image/Firedog/doggo13.png" />
             <figcaption>
               <i class='bx bxs-cart-add bx-tada bx-md'></i>
               <h3>เพิ่มลงรถเข็น<br /></h3>
             </figcaption>
-            <p style="font-size: 15px;">Happy Dog Sensible Japan</p>
+            <p style="font-size: 22px;">Happy Dog Sensible Japan</p>
             <br>
-            <p>ราคา 750 บาท</p>
+            <p style="font-size: 19px;">ราคา 750 บาท</p>
           </figure>
         </a>
       </div>
       <div class="box">
-        <a>
+        <a href="#">
           <figure class="hover-img">
             <img src="src/image/Firedog/doggo1.png" />
             <figcaption>
               <i class='bx bxs-cart-add bx-tada bx-md'></i>
               <h3>เพิ่มลงรถเข็น<br /></h3>
             </figcaption>
-            <p style="font-size: 15px;">Royal Canin Pomeranian</p>
+            <p style="font-size: 22px;">Royal Canin Pomeranian</p>
             <br>
-            <p>ราคา 350 บาท</p>
+            <p style="font-size: 19px;">ราคา 350 บาท</p>
           </figure>
         </a>
-        <a>
+        <a href="#">
           <figure class="hover-img">
             <img src="src/image/Firedog/doggo2.png" />
             <figcaption>
               <i class='bx bxs-cart-add bx-tada bx-md'></i>
               <h3>เพิ่มลงรถเข็น<br /></h3>
             </figcaption>
-            <p style="font-size: 15px;">ZEAL Spare Ribs</p>
+            <p style="font-size: 22px;">ZEAL Spare Ribs</p>
             <br>
-            <p>ราคา 450 บาท</p>
+            <p style="font-size: 19px;">ราคา 450 บาท</p>
           </figure>
         </a>
-        <a>
+        <a href="#">
           <figure class="hover-img">
             <img src="src/image/Firedog/doggo3.png" />
             <figcaption>
               <i class='bx bxs-cart-add bx-tada bx-md'></i>
               <h3>เพิ่มลงรถเข็น<br /></h3>
             </figcaption>
-            <p style="font-size: 15px;">Solid Gold Leaping Waters</p>
+            <p style="font-size: 22px;">Solid Gold Leaping Waters</p>
             <br>
-            <p>ราคา 390 บาท</p>
+            <p style="font-size: 19px;">ราคา 390 บาท</p>
           </figure>
         </a>
-        <a>
+        <a href="#">
           <figure class="hover-img">
             <img src="src/image/Firedog/doggo4.png" />
             <figcaption>
               <i class='bx bxs-cart-add bx-tada bx-md'></i>
               <h3>เพิ่มลงรถเข็น<br /></h3>
             </figcaption>
-            <p style="font-size: 15px;">Happy Dog Sensible Japan</p>
+            <p style="font-size: 22px;">Happy Dog Sensible Japan</p>
             <br>
-            <p>ราคา 750 บาท</p>
+            <p style="font-size: 19px;">ราคา 750 บาท</p>
           </figure>
         </a>
 
       </div>
       <div class="box">
-        <a>
+        <a href="#">
           <figure class="hover-img">
             <img src="src/image/Firedog/doggo5.png" />
             <figcaption>
               <i class='bx bxs-cart-add bx-tada bx-md'></i>
               <h3>เพิ่มลงรถเข็น<br /></h3>
             </figcaption>
-            <p style="font-size: 15px;">Royal Canin Pomeranian</p>
+            <p style="font-size: 22px;">Royal Canin Pomeranian</p>
             <br>
-            <p>ราคา 350 บาท</p>
+            <p style="font-size: 19px;">ราคา 350 บาท</p>
           </figure>
         </a>
-        <a>
+        <a href="#">
           <figure class="hover-img">
             <img src="src/image/Firedog/doggo6.png" />
             <figcaption>
               <i class='bx bxs-cart-add bx-tada bx-md'></i>
               <h3>เพิ่มลงรถเข็น<br /></h3>
             </figcaption>
-            <p style="font-size: 15px;">ZEAL Spare Ribs</p>
+            <p style="font-size: 22px;">ZEAL Spare Ribs</p>
             <br>
-            <p>ราคา 450 บาท</p>
+            <p style="font-size: 19px;">ราคา 450 บาท</p>
           </figure>
         </a>
-        <a>
+        <a href="#">
           <figure class="hover-img">
             <img src="src/image/Firedog/doggo7.png" />
             <figcaption>
               <i class='bx bxs-cart-add bx-tada bx-md'></i>
               <h3>เพิ่มลงรถเข็น<br /></h3>
             </figcaption>
-            <p style="font-size: 15px;">Solid Gold Leaping Waters</p>
+            <p style="font-size: 22px;">Solid Gold Leaping Waters</p>
             <br>
-            <p>ราคา 390 บาท</p>
+            <p style="font-size: 19px;">ราคา 390 บาท</p>
           </figure>
         </a>
-        <a>
+        <a href="#">
           <figure class="hover-img">
             <img src="src/image/Firedog/doggo8.png" />
             <figcaption>
               <i class='bx bxs-cart-add bx-tada bx-md'></i>
               <h3>เพิ่มลงรถเข็น<br /></h3>
             </figcaption>
-            <p style="font-size: 15px;">Happy Dog Sensible Japan</p>
+            <p style="font-size: 22px;">Happy Dog Sensible Japan</p>
             <br>
-            <p>ราคา 750 บาท</p>
+            <p style="font-size: 19px;">ราคา 750 บาท</p>
           </figure>
         </a>
       </div>
       <div class="box">
-        <a>
+        <a href="#">
           <figure class="hover-img">
             <img src="src/image/Firedog/doggo9.png" />
             <figcaption>
               <i class='bx bxs-cart-add bx-tada bx-md'></i>
               <h3>เพิ่มลงรถเข็น<br /></h3>
             </figcaption>
-            <p style="font-size: 15px;">Royal Canin Pomeranian</p>
+            <p style="font-size: 22px;">Royal Canin Pomeranian</p>
             <br>
-            <p>ราคา 350 บาท</p>
+            <p style="font-size: 19px;">ราคา 350 บาท</p>
           </figure>
         </a>
-        <a>
+        <a href="#">
           <figure class="hover-img">
             <img src="src/image/Firedog/doggo10.png" />
             <figcaption>
               <i class='bx bxs-cart-add bx-tada bx-md'></i>
               <h3>เพิ่มลงรถเข็น<br /></h3>
             </figcaption>
-            <p style="font-size: 15px;">ZEAL Spare Ribs</p>
+            <p style="font-size: 22px;">ZEAL Spare Ribs</p>
             <br>
-            <p>ราคา 450 บาท</p>
+            <p style="font-size: 19px;">ราคา 450 บาท</p>
           </figure>
         </a>
-        <a>
+        <a href="#">
           <figure class="hover-img">
             <img src="src/image/Firedog/doggo11.png" />
             <figcaption>
               <i class='bx bxs-cart-add bx-tada bx-md'></i>
               <h3>เพิ่มลงรถเข็น<br /></h3>
             </figcaption>
-            <p style="font-size: 15px;">Solid Gold Leaping Waters</p>
+            <p style="font-size: 22px;">Solid Gold Leaping Waters</p>
             <br>
-            <p>ราคา 390 บาท</p>
+            <p style="font-size: 19px;">ราคา 390 บาท</p>
           </figure>
         </a>
-        <a>
+        <a href="#">
           <figure class="hover-img">
             <img src="src/image/Firedog/doggo12.png" />
             <figcaption>
               <i class='bx bxs-cart-add bx-tada bx-md'></i>
               <h3>เพิ่มลงรถเข็น<br /></h3>
             </figcaption>
-            <p style="font-size: 15px;">Happy Dog Sensible Japan</p>
+            <p style="font-size: 22px;">Happy Dog Sensible Japan</p>
             <br>
-            <p>ราคา 750 บาท</p>
+            <p style="font-size: 19px;">ราคา 750 บาท</p>
           </figure>
         </a>
       </div>
       <div class="box">
-        <a>
+        <a href="#">
           <figure class="hover-img">
             <img src="src/image/Firedog/doggo13.png" />
             <figcaption>
               <i class='bx bxs-cart-add bx-tada bx-md'></i>
               <h3>เพิ่มลงรถเข็น<br /></h3>
             </figcaption>
-            <p style="font-size: 15px;">Royal Canin Pomeranian</p>
+            <p style="font-size: 22px;">Royal Canin Pomeranian</p>
             <br>
-            <p>ราคา 350 บาท</p>
+            <p style="font-size: 19px;">ราคา 350 บาท</p>
           </figure>
         </a>
-        <a>
+        <a href="#">
           <figure class="hover-img">
             <img src="src/image/Firedog/doggo14.png" />
             <figcaption>
               <i class='bx bxs-cart-add bx-tada bx-md'></i>
               <h3>เพิ่มลงรถเข็น<br /></h3>
             </figcaption>
-            <p style="font-size: 15px;">ZEAL Spare Ribs</p>
+            <p style="font-size: 22px;">ZEAL Spare Ribs</p>
             <br>
-            <p>ราคา 450 บาท</p>
+            <p style="font-size: 19px;">ราคา 450 บาท</p>
           </figure>
         </a>
-        <a>
+        <a href="#">
           <figure class="hover-img">
             <img src="src/image/Firedog/doggo15.png" />
             <figcaption>
               <i class='bx bxs-cart-add bx-tada bx-md'></i>
               <h3>เพิ่มลงรถเข็น<br /></h3>
             </figcaption>
-            <p style="font-size: 15px;">Solid Gold Leaping Waters</p>
+            <p style="font-size: 22px;">Solid Gold Leaping Waters</p>
             <br>
-            <p>ราคา 390 บาท</p>
+            <p style="font-size: 19px;">ราคา 390 บาท</p>
           </figure>
         </a>
-        <a>
+        <a href="#">
           <figure class="hover-img">
             <img src="src/image/Firedog/doggo16.png" />
             <figcaption>
@@ -329,14 +361,14 @@
               <h3>เพิ่มลงรถเข็น<br /></h3>
             </figcaption>
             <br>
-            <p style="font-size: 15px;">Happy Dog Sensible Japan</p>
+            <p style="font-size: 22px;">Happy Dog Sensible Japan</p>
             <br>
-            <p>ราคา 750 บาท</p>
+            <p style="font-size: 19px;">ราคา 750 บาท</p>
           </figure>
         </a>
       </div>
     </box>
-
+    <!-- <div class="end-lines"></div> -->
     <!-- <div class="end-line"></div> -->
   </section>
   <section id="two">
@@ -355,7 +387,7 @@
     <div class="end-line"></div>
     <ul class="topic">
       <li>
-        <p class="mgt-3" style="color:rgb(167, 167, 167) ;">CUSTOMER REVIEW</p>
+        <p class="boxone" class="mgt-3" style="color:rgb(167, 167, 167) ;">CUSTOMER REVIEW</p>
       </li>
     </ul>
     <box>
@@ -374,8 +406,25 @@
         </div>
       </div>
     </box>
-    <div class="end-lines"></div>
+    <box>
+      <div class="boxin">
+        <div class="contentin">
+          <img src='./src/image/IMG_0121.jpg' alt='customer' />
+          <p class="name">ปิงสุดหล่อ ไม่หล่อให้กระโดดถีบ</p>
+          <p>⭐⭐⭐</p>
+          <p style="text-indent: 7px;">ส่งของเร็วมากครับ สั่งปีนี้ส่งปีหน้า</p>
+        </div>
+        <div class="contentin">
+          <img src='./src/image/IMG_0122.jpg' alt='customer' />
+          <p class="name">คนตึงๆ ก็หล่อเป็นธรรมดาฮะ</p>
+          <p>⭐⭐⭐⭐⭐</p>
+          <p style="text-indent: 7px;">ได้ของแล้วขอบคุณมาก</p>
+        </div>
+      </div>
+    </box>
+    <!-- <div class="end-lines"></div> -->
   </section>
+
 </body>
 
 <footer class="footer">
@@ -389,8 +438,8 @@
     <li class="list-inline-item"><a href="breed.html">Breeds</a></li>
     <li class="list-inline-item"><a href="about.html">About Us</a></li>
   </ul>
-  <p class="caption">Hi I'm ZEV. I'm Junior Developer in TWEED TECH</p>
-  <p class="copyright">ZEVEN © 2022</p>
+  <p class="caption">Hi I'm Bas. I'm junior web developer.</p>
+  <p class="copyright">Bas © 2022</p>
 </footer>
 
 </html>

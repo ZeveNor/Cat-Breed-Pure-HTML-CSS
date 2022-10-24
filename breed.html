@@ -4,95 +4,183 @@
 <head>
   <meta charset='UTF-8' />
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="responsive.css">
   <link rel="stylesheet" href="usestyle.css">
   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel='shortcut icon' href='./src/image/TeenMeowKao.png' type='image/png' />
+  <link rel="stylesheet" href="breed.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Breeds</title>
 </head>
 
 <body>
   <section id="home">
     <nav>
-      <ul class="menu" style="background: #352d3a;">
-        <li><img src='./src/image/TeenMeowA.png' alt='Teen' /></li>
-        <li><a class="breed" href="index.html">HOME</a></li>
-        <li><a class="breed" href="breed.html">BREEDS</a></li>
-        <li><a class="breed" href="about.html">ABOUT US</a></li>
-        <li><a class="breed" href="https://zevenor.github.io/Cat-Breed-Pure-HTML-CSS/">VIEW ON SERVER</a></li>
+      <ul class="menu">
+        <li><img src='./src/image/TeenMeowKao.png' alt='Teen' /></li>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="breed.html">BREEDS</a></li>
+        <li><a href="about.html">ABOUT US</a></li>
+        <li><a href="https://zevenor.github.io/Cat-Breed-Pure-HTML-CSS/">VIEW ON SERVER</a></li>
+        <li><a class="fl-right" style="padding-bottom: 0.5em; border-radius: 10%;" href="loginPage.html">LOGIN</a>
+        </li>
       </ul>
     </nav>
     <main>
-      <div class="bg-breeds"></div>
+      <div class="bg-home"></div>
     </main>
   </section>
+  <br>
   <section id="one-breed">
     <ul>
       <li>
-        <p class="topic">CAT BREEDS | สารบัญสายพันธุ์แมว</p>
-        <p class="subtopicen">Thinking about getting a cat but not sure which breed is right for you? We can help.</p>
-        <p class="subtopic">อยากลองเลี้ยงแมวดูสักหน่อยมั้ย เราได้รวบรวมแมวที่มีมาให้แล้ว อยากได้แนวไหนสีไหนหน้าตาแบบไหน
-          มีหมด</p>
+        <p class="topic">DOG BREEDS | สารบัญสายพันธุ์สุนัข</p>
+        <p class="subtopicen">Thinking about getting a dog but not sure which breed is right for you? We can help.</p>
+        <p class="subtopic">อยากลองเลี้ยงสุนัขดูสักหน่อยไหม เราได้รวบรวมสุนัขที่มีมาให้แล้ว
+          อยากได้แนวไหนสีไหนหน้าตาแบบไหน
+          มีหมด ครบในที่เดียว</p>
       </li>
     </ul>
-    <div class="box">
-      <div class="br-content">
-        <img src="./src/image/Abyssinian_body_7.jpg" />
-        <p>Abyssinian Cat</p>
-      </div>
-      <div class="br-content">
-        <img src="./src/image/AmericanBobtail_body_6.jpg" />
-        <p>American Bobtail Cat Breed</p>
-      </div>
-      <div class="br-content">
-        <img src="./src/image/AmericanCurlSHA_body_6.jpg" />
-        <p>American Curl Cat Breed</p>
-      </div>
-      <div class="br-content">
-        <img src="./src/image/AmericanShorthair_body_6.jpg" />
-        <p>American Shorthair Cat</p>
-      </div>
-    </div>
-    <div class="box">
-      <div class="br-content">
-        <img src="./src/image/AmericanWirehair_body_6.jpg" />
-        <p>American Wirehair Cat Breed</p>
-      </div>
-      <div class="br-content">
-        <img src="./src/image/Javanese_body_6.jpg" />
-        <p>Balinese-Javanese Cat Breed</p>
-      </div>
-      <div class="br-content">
-        <img src="./src/image/Bengal_body_6.jpg" />
-        <p>Bengal Cat</p>
-      </div>
-      <div class="br-content">
-        <img src="./src/image/Birman_body_6.jpg" />
-        <p>Birman Cat Breed</p>
-      </div>
-    </div>
-    <div class="box">
-      <div class="br-content">
-        <img src="./src/image/Bombay_body_6.jpg" />
-        <p>Bombay Cat</p>
-      </div>
-      <div class="br-content">
-        <img src="./src/image/BritishShorthair_body_6.jpg" />
-        <p>British Shorthair Cat Breed</p>
-      </div>
-      <div class="br-content">
-        <img src="./src/image/Burmese_body_6.jpg" />
-        <p>Burmese Cat</p>
-      </div>
-      <div class="br-content">
-        <img src="./src/image/Chartruese_body_6.jpg" />
-        <p>Chartreux Cat Breed</p>
-      </div>
+    <div class="box" style="font-family: Manser;">
+      <a href="./Dog Breeds/Golden.html" style="text-decoration: none;">
+        <figure class="hover-img">
+          <img src="./src/image/Dog/G.jpg" id="imgm" />
+          <figcaption>
+            <i class='bx bxs-info-circle bx-flashing bx-md'></i>
+            <br>
+            <h3>Details<br></h3>
+          </figcaption>
+        </figure>
+        <p style="font-size: 20px; color: #352d3a;">Golden Retriever</p>
+      </a>
+      <a href="./Dog Breeds/Samoyed.html" style="text-decoration: none;">
+        <figure class="hover-img">
+          <img src="./src/image/Dog/Samoyed.jpg" id="imgm" />
+          <figcaption>
+            <i class='bx bxs-info-circle bx-flashing bx-md'></i>
+            <br>
+            <h3>Details<br /></h3>
+          </figcaption>
+        </figure>
+        <p style="font-size: 20px; color: #352d3a;">Samoyed</p>
+      </a>
+      <a href="./Dog Breeds/Alaskan.html" style="text-decoration: none;">
+        <figure class="hover-img">
+          <img src="./src/image/Dog/Alaskan.jpg" id="imgm" />
+          <figcaption>
+            <i class='bx bxs-info-circle bx-flashing bx-md'></i>
+            <br>
+            <h3>Details<br /></h3>
+          </figcaption>
+        </figure>
+        <p style="font-size: 20px; color: #352d3a;">Alaskan Malamute</p>
+      </a>
+      <a href="./Dog Breeds/Siberian.html" style="text-decoration: none;">
+        <figure class="hover-img">
+          <img src="./src/image/Dog/Siberian.jpg" id="imgm" />
+          <figcaption>
+            <i class='bx bxs-info-circle bx-flashing bx-md'></i>
+            <br>
+            <h3>Details<br /></h3>
+          </figcaption>
+        </figure>
+        <p style="font-size: 20px; color: #352d3a;">Siberian Husky</p>
+      </a>
     </div>
 
-    <div class="page">
-      <a>1</a>
-      <a>2</a>
-      <a>3</a>
-      <a>4</a>
+
+
+    <div class="box">
+      <a class="res-mt" href="./Dog Breeds/Pomeranian.html" style="text-decoration: none;">
+        <figure class="hover-img">
+          <img src="./src/image/Dog/P.jpg" id="imgm" />
+          <figcaption>
+            <i class='bx bxs-info-circle bx-flashing bx-md'></i>
+            <br>
+            <h3>Details<br /></h3>
+          </figcaption>
+        </figure>
+        <p style="font-size: 20px; color: #352d3a;">Pomeranian</p>
+      </a>
+      <a href="./Dog Breeds/Shiba Inu.html" style="text-decoration: none;">
+        <figure class="hover-img">
+          <img src="./src/image/Dog/Shiba.jpg" id="imgm" />
+          <figcaption>
+            <i class='bx bxs-info-circle bx-flashing bx-md'></i>
+            <br>
+            <h3>Details<br /></h3>
+          </figcaption>
+        </figure>
+        <p style="font-size: 20px; color: #352d3a;">Shiba Inu</p>
+      </a>
+      <a href="./Dog Breeds/Chihuahua.html" style="text-decoration: none;">
+        <figure class="hover-img">
+          <img src="./src/image/Dog/Chihuahua.jpg" id="imgm" />
+          <figcaption>
+            <i class='bx bxs-info-circle bx-flashing bx-md'></i>
+            <br>
+            <h3>Details<br /></h3>
+          </figcaption>
+        </figure>
+        <p style="font-size: 20px; color: #352d3a;">Chihuahua</p>
+      </a>
+      <a href="./Dog Breeds/Collie.html" style="text-decoration: none;">
+        <figure class="hover-img">
+          <img src="./src/image/Dog/Collie.jpg" id="imgm" />
+          <figcaption>
+            <i class='bx bxs-info-circle bx-flashing bx-md'></i>
+            <br>
+            <h3>Details<br /></h3>
+          </figcaption>
+        </figure>
+        <p style="font-size: 20px; color: #352d3a;">Chihuahua</p>
+      </a>
+    </div>
+    <div class="box">
+      <a href="./Dog Breeds/Shizu.html" style="text-decoration: none;">
+        <figure class="hover-img">
+          <img src="./src/image/Dog/Shizu.jpg" id="imgm" />
+          <figcaption>
+            <i class='bx bxs-info-circle bx-flashing bx-md'></i>
+            <br>
+            <h3>Details<br /></h3>
+          </figcaption>
+        </figure>
+        <p style="font-size: 20px; color: #352d3a;">Chihuahua</p>
+      </a>
+      <a href="./Dog Breeds/Tibetan.html" style="text-decoration: none;">
+        <figure class="hover-img">
+          <img src="./src/image/Dog/Tibetan.jpg" id="imgm" />
+          <figcaption>
+            <i class='bx bxs-info-circle bx-flashing bx-md'></i>
+            <br>
+            <h3>Details<br /></h3>
+          </figcaption>
+        </figure>
+        <p style="font-size: 20px; color: #352d3a;">Tibetan Mastiff</p>
+      </a>
+      <a href="./Dog Breeds/Chow.html" style="text-decoration: none;">
+        <figure class="hover-img">
+          <img src="./src/image/Dog/Chow Chow.jpg" id="imgm" />
+          <figcaption>
+            <i class='bx bxs-info-circle bx-flashing bx-md'></i>
+            <br>
+            <h3>Details<br /></h3>
+          </figcaption>
+        </figure>
+        <p style="font-size: 20px; color: #352d3a;">Chow Chow</p>
+      </a>
+      <a href="./Dog Breeds/Beagle.html" style="text-decoration: none;">
+        <figure class="hover-img">
+          <img src="./src/image/Dog/Beagle.jpg" id="imgm" />
+          <figcaption>
+            <i class='bx bxs-info-circle bx-flashing bx-md'></i>
+            <br>
+            <h3>Details<br /></h3>
+          </figcaption>
+        </figure>
+        <p style="font-size: 20px; color: #352d3a;">Beagle</p>
+      </a>
     </div>
   </section>
 

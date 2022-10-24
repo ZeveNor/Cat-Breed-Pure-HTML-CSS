@@ -26,7 +26,7 @@ ul.menu {
   position: relative;
   margin: 0;
   list-style-type: none;
-  padding: 0 10% 0 105;
+  padding: 0 5% 0 90;
 }
 
 ul.menu li img {
@@ -72,15 +72,11 @@ ul.menu .gallery:hover {
 }
 
 /* Right Navigation css */
-/* ul.menu li a.fl-right {
+ul.menu li a.fl-right {
   text-decoration: none;
   float: right;
-  color: red;
-  font-weight: 100;
-  font-size: 1.7em;
-  padding: 1em 1.5em 0 0;
-  border-bottom: solid 3px;
-} */
+  color: rgb(250, 249, 249);
+}
 
 main {
   height: 70vh;
@@ -181,9 +177,10 @@ section#two .topic {
   margin-top: 3em;
 }
 
-section#one-breed ul {
+section#one-breed li {
   list-style: none;
-  margin: 5em 0 0 30em;
+  margin: 0;
+  text-align: center;
 }
 
 section#one-breed .topic {
@@ -249,9 +246,8 @@ section#one-gallery .topic {
   background-color: rgb(255, 255, 255);
   color: rgb(58, 53, 53);
   display: inline-block;
-  margin: 0 5px;
+  margin: 0 10px;
   padding-bottom: 10%;
-  border-bottom: 1px solid rgb(212, 204, 204);
   max-width: 240px;
   min-width: 240px;
   overflow: hidden;
@@ -267,7 +263,7 @@ section#one-gallery .topic {
 
 .hover-img:before,
 .hover-img:after {
-  background-color: rgba(250, 250, 250, 0.5);
+  background-color: rgb(255, 255, 255);
   position: absolute;
   top: 0;
   bottom: 0;
@@ -301,8 +297,7 @@ section#one-gallery .topic {
   opacity: 0;
   z-index: 2;
   transition-delay: 0.1s;
-  font-size: 24px;
-  font-family: sans-serif;
+  font-size: 17px;
   font-weight: 400;
   letter-spacing: 1px;
   text-transform: uppercase;
@@ -321,11 +316,15 @@ section#one-gallery .topic {
 .hover-img:hover figcaption {
   opacity: 1;
 }
+.a1 {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid;
+  border-color: #dad2cd;
+  border-radius: 15px;
+}
 
 .footer {
-  background: url(./src/image/TeenMeowNubRalw.png);
-  background-size: cover;
-  background-position: bottom right;
   padding: 40px 0;
   background-color: #ffffff;
   color: #4b4c4d;
@@ -377,6 +376,9 @@ section#one-gallery .topic {
   opacity: 0.9;
 }
 
+.footer .list-inline-item {
+  font-size: 25px;
+}
 .footer .list-inline {
   display: flex;
   flex-direction: row;
@@ -386,7 +388,7 @@ section#one-gallery .topic {
 .footer .caption {
   margin-top: 15px;
   text-align: center;
-  font-size: 15px;
+  font-size: 20px;
   color: #aaa;
   margin-bottom: 0;
 }
@@ -394,13 +396,7 @@ section#one-gallery .topic {
 .footer .copyright {
   margin-top: 15px;
   text-align: center;
-  font-size: 13px;
+  font-size: 20px;
   color: #aaa;
   margin-bottom: 0;
-}
-
-@media (max-width: 800px) {
-  .box {
-    flex-direction: column;
-  }
 }
