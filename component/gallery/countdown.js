@@ -4,7 +4,7 @@ const minsEl = document.getElementById("mins");
 const secondsEl = document.getElementById("seconds");
 
 function countdown() {
-  const target = new Date("12/1/2022");
+  const target = new Date("12/1/2023");
 
   const x = setInterval(() => {
     const diff = target.getTime() - Date.now();
